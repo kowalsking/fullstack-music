@@ -43,3 +43,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.json({ error: 'Email or Password is wrong' })
   }
 }
+
+console.log(1)
